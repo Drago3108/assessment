@@ -3,11 +3,11 @@ const app = express();
 const port = 8000;
 
 app.get('/', (req, res) => {
-  res.send('Aigilx Helath App 1')
+  res.send('Aigilx Helath CI/CD Pipeline')
 });
 
 app.get('/test', (req, res) => {
-  res.send('Aigilx Helath App 2')
+  res.send('Aigilx Helath CI/CD Pipeline')
 });
 
 app.listen(port, () => {
