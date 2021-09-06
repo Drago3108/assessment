@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  registry:
+    image: nodejs/webapp:v1
+    container_name: nodejs-web-app
+    ports:
+      - 8081:8000
+
+  nginx:
+    image: nginx/modified:v1
+    ports:
+     - 8099:80 
